@@ -9,7 +9,7 @@ SFMed的研发和训练工作开始于2024年6月。核心功能包括
 
 ## 更新日志
 
-[2024/09/01] 🚀[开源SFMed与7B模型权重🤗](https://huggingface.co/) #todo
+[2024/09/01] 🚀[开源SFMed与7B模型权重🤗](https://huggingface.co/) #todo (Once  the  paper  is  accepted,  we  will  release  our  model.)
 
 ## 如何使用
 
