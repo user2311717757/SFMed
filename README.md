@@ -1,29 +1,29 @@
 # SFMed
 
-SFMed是一个基于Qwen2-7B-Instruct进行继续预训练、监督微调和对齐后的医疗垂直领域大模型，目前模型的性能已经全面超过其他开源医疗大模型，与闭源模型等性能相当。
+SFMed is a large-scale medical domain model that has undergone continued pre-training, supervised fine-tuning, and alignment based on Qwen2-7B-Instruct. Its current performance has comprehensively surpassed that of other open-source medical models and is comparable to proprietary models.
 
-SFMed的研发和训练工作开始于2024年6月。核心功能包括
 
-- 医疗问诊：可以作为医生回答用户关于疾病等方面的问题，包括一问一答的单轮对话形式以及包含追问的多轮对话形式。
-- 医药咨询：理解医学术语、药品等专有名词的含义，提供精确的医疗领域专业知识。
+The core functions of SFMed include:
 
-## 更新日志
+- Medical Consultation: It can act as a doctor to answer users' questions about diseases and other health-related issues. This includes single-turn question-and-answer dialogues as well as multi-turn dialogues with follow-up questions.
 
-[2024/09/01] 🚀[开源SFMed与7B模型权重🤗](https://huggingface.co/) #todo (Once  the  paper  is  accepted,  we  will  release  our  model.)
+- Pharmaceutical Consultation: It understands medical terminology, drug names, and other specialized terms, providing precise professional knowledge in the medical field.
 
-## 如何使用
+## Update Log
 
-### 下载
+[2024/11/01] 🚀[Open-source SFMed and 7B model weights🤗](https://huggingface.co/) #todo (Once  the  paper  is  accepted,  we  will  release  our  model.)
+
+### Download
 
 [SFMed-7B-Instruct](https://huggingface.co/) #todo
 
-### 推理
+### Inference
 
-与 [🤗Qwen2-7B-Instruct](https://huggingface.co/Qwen/Qwen2-7B-Instruct)的推理方式相同
+Same inference method as [🤗Qwen2-7B-Instruct](https://huggingface.co/Qwen/Qwen2-7B-Instruct)
 
-## 训练数据
+## Training Data
 
-共约2.7B token，其中通用语料约1.4B token，医疗领域约1.3B token
+A total of approximately2.7B tokens, including around1.4B tokens of general corpus and about1.3B tokens from the medical domain.
 
 - 中文医疗数据
 
