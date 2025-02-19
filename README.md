@@ -11,7 +11,7 @@ The core functions of SFMed include:
 
 ## Update Log
 
-[2024/11/01] 🚀[Open-source SFMed and 7B model weights🤗](https://huggingface.co/) #todo (Once  the  paper  is  accepted,  we  will  release  our  model.)
+[2024/11/01] 🚀[Open-source SFMed and 7B model weights🤗](https://huggingface.co/) #todo (Due to the requirements for anonymity, once  the  paper  is  accepted,  we  will  release  our  model.)
 
 ### Download
 
