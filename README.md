@@ -1,6 +1,6 @@
 # SFMed
 
-SFMed is a large-scale medical domain model that has undergone continued pre-training, supervised fine-tuning, and alignment based on Qwen2-7B-Instruct. Its current performance has comprehensively surpassed that of other open-source medical models and is comparable to proprietary models.
+SFMed is a large-scale medical domain model that has undergone continued pre-training, supervised fine-tuning, and alignment based on Qwen2.5-7B-Instruct. Its current performance has comprehensively surpassed that of other open-source medical models and is comparable to proprietary models.
 
 
 The core functions of SFMed include:
@@ -19,7 +19,7 @@ The core functions of SFMed include:
 
 ### Inference
 
-Same inference method as [🤗Qwen2-7B-Instruct](https://huggingface.co/Qwen/Qwen2-7B-Instruct)
+Same inference method as [🤗Qwen2.5-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct)
 
 ## Training Data
 
@@ -106,7 +106,7 @@ python infer_vllm.py --model_path
 
 ### 2. Comparison results with other models
 
-| QA-Rouge     |           | SFMed vs. Qwen2-7B-Instruct    | SFMed vs. ChatGPT           | SFMed vs. GPT-4             |
+| QA-Rouge     |           | SFMed vs. Qwen2.5-7B-Instruct    | SFMed vs. ChatGPT           | SFMed vs. GPT-4             |
 | ------------ | --------- | ------------------------------ | --------------------------- | --------------------------- |
 | multi-turn dialogues | CMtMedQA  | **0.8124/0.0019/0.1857** | 0.3424/0.0019/0.6557        | **0.6538/0.0/0.3462** |
 | single-turn dialogues | All       | **0.71/0.002/0.288**     | 0.451/0.01/0.539            | **0.54/0.007/0.453**  |
@@ -114,14 +114,14 @@ python infer_vllm.py --model_path
 |              | webMedQA  | **0.666/0.002/0.332**    | 0.486/0.012/0.502           | **0.53/0.008/0.462**  |
 | medical term explanations| medtiku   | **0.94/0.0/0.06**        | **0.605/0.006/0.389** | **0.842/0.0/0.158**   |
 
-| QA-GPT   |           | SFMed vs. Qwen2-7B-Instruct | SFMed vs. ChatGPT             | SFMed vs. GPT-4      |
+| QA-GPT   |           | SFMed vs. Qwen2.5-7B-Instruct | SFMed vs. ChatGPT             | SFMed vs. GPT-4      |
 | -------- | --------- | --------------------------- | ----------------------------- | -------------------- |
 | multi-turn dialogues | CMtMedQA  | 0.089/0.5841/0.3269         | **0.265/0.5861/0.1489** | 0.1644/0.5184/0.3172 |
 | single-turn dialogues | All       | 0.087/0.593/0.316           | **0.325/0.554/0.117**   | 0.037/0.505/0.452    |
 |          | huatuo26M | 0.11/0.568/0.322            | **0.364/0.506/0.13**    | 0.056/0.516/0.426    |
 |          | webMedQA  | 0.064/0.618/0.31            | **0.286/0.602/0.104**   | 0.018/0.494/0.478    |
 
-| Multiple-choice question | ChatGPT | gpt-4  | qwen2-7b-instruct | SFMed            |
+| Multiple-choice question | ChatGPT | gpt-4  | qwen2.5-7b-instruct | SFMed            |
 | ------ | ------- | ------ | ----------------- | ---------------- |
 | All    | 0.4875  | 0.7072 | 0.7153            | **0.7596** |
 | PLE    | 0.405   | 0.685  | 0.61              | **0.685**  |
